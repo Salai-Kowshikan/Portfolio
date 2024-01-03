@@ -5,7 +5,7 @@ export default function ProfileCard() {
         <div className="bg-transparent border-white border-2 text-white rounded-lg px-6 py-4 max-h-[77svh] w-full">
             <div className="mb-4 mx-auto flex flex-col justify-center items-center">
                 <img src="/profile.jpeg" alt="profile" className="rounded-lg mx-auto h-[160px] w-[120px] object-cover" />
-                <div className="text-xl font-bold mb-2">Salai Kowshikan</div>
+                <div className="text-xl font-bold mb-2 text-textc">Salai Kowshikan</div>
                 <div className="flex flex-col justify-around w-full gap-2">
                     <span className="bg-secondary rounded-lg px-3 py-1 text-center"> Front-end Developer </span>
                     {/* <span className="bg-secondary rounded-lg px-3 py-1 text-center"> ML Enthusiast </span> */}

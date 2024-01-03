@@ -5,4 +5,16 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
 }
