@@ -12,7 +12,7 @@ const Navbar = () => {
                     <button
                         className={`py-2 px-4 border-b-2 ${activeButton === 'Profile' ? 'border-textc' : 'border-transparent'} hover:border-textc`}
                         onClick={() => {setActiveButton('Profile')
-                        navigate('/Profile')}}
+                        navigate('/')}}
                     >
                         Profile
                     </button>
