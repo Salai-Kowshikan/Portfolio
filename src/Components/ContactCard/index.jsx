@@ -46,11 +46,11 @@ export default function ContactCard({animationVariants}) {
         <h1 className="text-2xl font-bold">Contact</h1>
         <div className="w-[80%] flex justify-between items-center">
           <label htmlFor="email" className="text-lg font-bold w-[20%]"> Email: </label>
-          <input type="email" name="email" placeholder="SpaceCowboy@bebop.com" className="text-textc bg-black border-2 focus:ring-textc focus:ring-2 border-white rounded-md p-2 flex-grow" onChange={changeEmail} />
+          <input type="email" id="email" name="email" placeholder="SpaceCowboy@bebop.com" className="text-textc bg-black border-2 focus:outline-none focus:border-textc border-white rounded-md p-2 flex-grow" onChange={changeEmail} />
         </div>
         <div className="w-[80%] flex justify-between items-center">
           <label htmlFor="message" className="text-lg font-bold w-[20%]"> Message: </label>
-          <input type="text" name="message" placeholder="Something important here" className="text-black rounded-md p-2 flex-grow" onChange={changeMessage} />
+          <input type="text" id="message" name="message" placeholder="Something important here" className="text-textc bg-black border-2 focus:outline-none focus:border-textc border-white rounded-md p-2 flex-grow" onChange={changeMessage} />
         </div>
         <button onClick={handleSubmit}>
           Send
