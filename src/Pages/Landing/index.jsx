@@ -5,6 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import IntroCard from "../../Components/IntroCard/index.jsx";
 import ResumeCard from "../../Components/ResumeCard/index.jsx";
 import { Routes, Route, useLocation } from "react-router-dom";
+import ProjectsGrid from "../../Components/ProjectsGrid/index.jsx";
+import ContactCard from "../../Components/ContactCard/index.jsx";
 export default function Landing() {
   const location = useLocation();
 
@@ -27,8 +29,8 @@ export default function Landing() {
           <Routes location={location} key={location.key}>
             <Route path="" element={<IntroCard animationVariants={animationVariants} />} />
             <Route path="Resume" element={<ResumeCard animationVariants={animationVariants} />} />
-            <Route path="Projects" element={<h1>Projects</h1>} />
-            <Route path="Contact" element={<h1>Contact</h1>} />
+            <Route path="Projects" element={<ProjectsGrid animationVariants={animationVariants} />} />
+            <Route path="Contact" element={<ContactCard animationVariants={animationVariants} />} />
           </Routes>
         </AnimatePresence>
       </div>

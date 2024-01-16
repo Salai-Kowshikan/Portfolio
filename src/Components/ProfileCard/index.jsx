@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 export default function ProfileCard() {
     return (
         <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
         className="bg-transparent border-white border-2 text-white rounded-lg px-6 py-4">
             <div className="mb-4 mx-auto flex flex-col justify-center items-center">
