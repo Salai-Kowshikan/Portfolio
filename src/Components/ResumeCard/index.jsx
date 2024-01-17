@@ -23,7 +23,7 @@ export default function ResumeCard({ animationVariants }) {
         <div className="w-[80%] flex flex-col">
           <h2> You can have a look at my resume here: </h2>
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             download
             className="self-center border-2 border-white hover:border-textc hover:text-textc px-4 py-2 rounded-md"
           >
