@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index.jsx";
+import Navbar from "../../Components/UI/Navbar/index.jsx";
 import ProfileCard from "../../Components/ProfileCard/index.jsx";
 import { motion, AnimatePresence } from "framer-motion";
 import IntroCard from "../../Components/IntroCard/index.jsx";
